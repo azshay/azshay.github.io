@@ -1,0 +1,138 @@
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-img {
+	vertical-align: middle;
+	display: inline-block;
+	width: 45%;
+}
+
+.header-text {
+	margin-top: 60px;
+	vertical-align: top;
+	width: 54%;
+	display: inline-block;
+}
+
+body {
+	font-family: Tahoma;
+}
+
+.header {
+	padding-top: 77px;
+	padding-bottom: 96px;
+}
+
+.header-text__title {
+	font-weight: 700;
+	font-size: 48px;
+	margin-bottom: 15px;
+}
+
+.header-text__subtitle {
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+
+.header-text__description {
+	max-width: 480px;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 47px;
+}
+
+.header-text__price {
+	font-size: 48px;
+	color: #313131;
+	margin-bottom: 53px;
+}
+
+.header-text__button {
+	padding: 20px 44px;
+	border-radius: 5px;
+	background-color: #f05a22;
+	border: 2px solid #f05a22;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	outline: none;
+	transition: 3s;
+}
+
+.header-text__button-o {
+	background-color: white;
+	color: #f05a22;
+	border: 2px solid #f05a22;
+	margin-left: 40px;
+}
+
+.header-text__button:hover {
+	background-color: white;
+	color: #f05a22;
+}
+
+.header-text__button-o:hover {
+	background-color: #f05a22;
+	color: white;
+}
+
+.features{
+	padding-top: 89px;
+	padding-bottom: 99px;
+	border: 1px solid #ffffff;
+	background-color: #f2f2f2;
+}
+
+.section-title {
+	text-align: center;
+	color: #333333;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 85px;
+}
+
+.features-wrap::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.features-block {
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	float: left;
+}
+
+.features-block__img {
+	min-height: 60px;
+	margin-bottom: 16px;
+}
+
+.features-block__text {
+	color: #333333;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.buy {
+	margin-top: 89px;
+}
+
+.buy__img {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	margin-bottom: 26px;
+}
+
+.buy-wrap {
+	content: '';
+	display: table;
+	clear: both;
+}
