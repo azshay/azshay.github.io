@@ -1,91 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>GITHUB LULULU</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<header class="header">
-		<div class="container">
-			<div class="header-img">
-				<img src="img/foto_of_book.jpg" alt="foto of book">
-			</div>
-			<div class="header-text">
-				<h1 class="header-text__title">Истинная королева</h1>
-				<p class="header-text__subtitle">Екатерина Арагонская</p>
-				<p class="header-text__description">«Екатерина Арагонская» — это первый роман популярного автора и известного историка Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>
-				<div class="header-text__price">399 р.</div>
-				<button class="header-text__button">Купить</button>
-				<button class="header-text__button header-text__button-o">Узнать подробнее</button>
-			</div>
-		</div>
-	</header>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>lesson-7</title>
 
-	<section class="features">
-		<div class="container">
-			<h2 class="section-title">Доставка и оплата</h2>
-			<div class="features-wrap">
-				<div class="features-block">
-					<div class="features-block__img">
-						<img src="img/features/Shopping_cart.png" alt="Shopping_cart">
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap-grid.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<header class="header">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="header-img col-md-12 col-xl-5">
+						<img src="img/foto_of_book.jpg" alt="foto_of_book">
 					</div>
-					<div class="features-block__text">Бесплатная доставка <br>381 магазин в сети</div>
-				</div>
-				<div class="features-block">
-					<div class="features-block__img">
-						<img src="img/features/Credit_card.png" alt="Credit_card">
+					<div class="header-text col-md-12 col-xl-7">
+						<h1 class="header-text__title">Истинная королева</h1>
+						<div class="header-text__subtitle">Екатерина Арагонская</div>
+						<p class="header-text__descr">«Екатерина Арагонская» — это первый роман популярного автора и известного историка Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>
+						<div class="header-text__price">399 р.</div>
+						<div class="header-text__buttons">
+							<button class="button">Купить</button>
+							<button class="button button-o">Узнать подробнее</button>
+						</div>
 					</div>
-					<div class="features-block__text">Оплата онлайн или <br>наличными при получении</div>
-				</div>
-				<div class="features-block">
-					<div class="features-block__img">
-						<img src="img/features/Shipped.png" alt="Shipped">
-					</div>
-					<div class="features-block__text">Курьерская доставка: <br>от 2000 р. – бесплатно</div>
-				</div>
-				<div class="features-block">
-					<div class="features-block__img">
-						<img src="img/features/Mailbox.png" alt="Mailbox">
-					</div>
-					<div class="features-block__text">Почтой России – <br>в любую точку страны</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="buy">
-		<div class="container">
-			<h2 class="section-title">Кто уже купил эту книгу</h2>
-			<div class="buy-wrap">
-				<div class="buy__img">
-					<img src="img/buy/first_photo.png" alt="first_photo">
-				</div>
-				<div class="buy__img">
-					<img src="img/buy/second_photo.png" alt="second_photo">
-				</div>
-				<div class="buy__img">
-					<img src="img/buy/thirst_photo.png" alt="thirst_photo">
-				</div>
-				<div class="buy__img">
-					<img src="img/buy/fourth_photo.png" alt="fourth_photo">
-				</div>
-				<div class="buy__img">
-					<img src="img/buy/fifth_photo.png" alt="fifth_photo">
-				</div>
-				<div class="buy__img">
-					<img src="img/buy/sixth_photo.png" alt="sixth_photo">
-				</div>
-				<div class="buy__img">
-					<img src="img/buy/seventh_photo.png" alt="seventh_phot_img">
-				</div>
-				<div class="buy__img">
-					<img src="img/buy/eighth_photo.png" alt="eight_photo">
+		</header>
+		
+		<section class="features">
+			<div class="container">
+				<h2 class="section-title">Доставка и оплата</h2>
+				<div class="row">
+					<div class="features-block col-12 col-sm-6 col-xl-3">
+						<div class="features-block__img">
+							<img src="img/features/Shopping_cart.png" alt="Shopping_cart">
+						</div>
+						<div class="features-block__text">
+							Бесплатная доставка <br>381 магазин в сети
+						</div>
+					</div>
+					<div class="features-block col-12 col-sm-6 col-xl-3">
+						<div class="features-block__img">
+							<img src="img/features/Credit_card.png" alt="Credit_card">
+						</div>
+						<div class="features-block__text">
+							Оплата онлайн или<br> наличными при получении
+						</div>
+					</div>
+					<div class="features-block col-12 col-sm-6 col-xl-3">
+						<div class="features-block__img">
+							<img src="img/features/Shipped.png" alt="Shipped">
+						</div>
+						<div class="features-block__text">
+							Курьерская доставка: <br>от 2000 р. – бесплатно
+						</div>
+					</div>
+					<div class="features-block col-12 col-sm-6 col-xl-3">
+						<div class="features-block__img">
+							<img src="img/features/Mailbox.png" alt="Mailbox">
+						</div>
+						<div class="features-block__text">
+							Почтой России – <br>в любую точку страны
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+		
+		<section class="buy">
+			<div class="container">
+				<h2 class="section-title">Кто уже купил эту книгу</h2>
+				<div class="row buy-center">
+					<div class="buy__img col-xl-3 col-sm-6 col-12">
+						<img src="img/buy/first_photo.png" alt="first_photo.png">
+					</div>
+					<div class="buy__img col-xl-3 col-sm-6 col-12">
+						<img src="img/buy/second_photo.png" alt="second_photo.png">
+					</div>
+					<div class="buy__img col-xl-3 col-sm-6 col-12">
+						<img src="img/buy/thirst_photo.png" alt="thirst_photo.png">
+					</div>
+					<div class="buy__img col-xl-3 col-sm-6 col-12">
+						<img src="img/buy/fourth_photo.png" alt="fourth_photo.png">
+					</div>
+					<div class="buy__img col-xl-3 col-sm-6 col-12">
+						<img src="img/buy/fifth_photo.png" alt="fifth_photo.png">
+					</div>
+					<div class="buy__img col-xl-3 col-sm-6 col-12">
+						<img src="img/buy/sixth_photo.png" alt="sixth_photo.png">
+					</div>
+					<div class="buy__img col-xl-3 col-sm-6 col-12">
+						<img src="img/buy/seventh_photo.png" alt="seventh_photo.png">
+					</div>
+					<div class="buy__img col-xl-3 col-sm-6 col-12">
+						<img src="img/buy/eighth_photo.png" alt="eighth_photo.png">
+					</div>
+				</div>
+			</div>
+		</section>
 
-</body>
+	</body>
 </html>
