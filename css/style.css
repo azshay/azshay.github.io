@@ -258,8 +258,14 @@ body {
 }
 
 @media (min-width: 0px) and (max-width: 576px) {
+  img {
+    max-width: 100%;
+  }
+
   .href-menu {
+    margin-top: 13px;
     margin-right: 0;
+    font-size: 14px;
   }
 
   .header-presentation__img img {
