@@ -1,0 +1,65 @@
+.main
+	position: relative
+	padding-top: 65px
+	padding-bottom: 60px
+	background: $text-color-dark url(..\img\section-main\Layer_54.jpg) center no-repeat
+	background-size: cover
+	color: $text-color-light
+	z-index: 1
+	&::before
+		content: ''
+		display: block
+		position: absolute
+		right: 0
+		top: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(0, 0, 0, 0.6)
+		z-index: 0
+	&-img
+		position: relative
+		&::before
+			content: ''
+			position: absolute
+			z-index: -1
+			width: 390px
+			height: 390px
+			left: 50%
+			margin-left: -195px
+			border: 1px solid $text-color-light
+			border-radius: 50%
+	&-text
+		&__title
+			font-family: 'Roboto Bold', sans-serif
+			color: $text-color-light
+			font-size: 41px
+		&__subtitle
+			font-size: 28px
+			color: $text-color-light
+			font-family: 'Roboto Regular', sans-serif
+			margin-bottom: 24px
+		&__form
+			background-color: rgba(#fff, 0.2)
+			padding: 27px 30px
+.form
+	input
+		border: none
+		padding: 20px
+		border-radius: 5px
+		margin-bottom: 12px
+		padding-right: 130px
+		font-size: 14px
+	&-title
+		padding-right: 82px
+		font-family: 'Roboto Light'
+		font-size: 20px
+		line-height: 30px
+		margin-bottom: 20px
+		&__important
+			text-transform: uppercase
+			font-family: 'Roboto Bold'
+		&__min
+			margin-left: 19px
+			font-family: 'Roboto Light'
+			font-size: 14px
+

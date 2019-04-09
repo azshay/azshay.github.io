@@ -175,8 +175,15 @@ body {
   padding-top: 60px;
 }
 
+.location__descr__coming {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 40px;
+}
+
 .location__img {
   padding-bottom: 30px;
+  max-width: 100%;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
