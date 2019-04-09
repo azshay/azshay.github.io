@@ -31,6 +31,10 @@ body {
   font-size: 30px;
 }
 
+.header-menu-logo__img {
+  max-width: 64px;
+}
+
 .href-menu {
   display: inline-block;
   font-size: 20px;
