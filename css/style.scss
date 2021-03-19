@@ -1,0 +1,349 @@
+$black: #222222;
+$pink: #f16d7f;
+$white: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.header {
+  background: $black;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__magnifier {
+    margin-left: 41px;
+  }
+  &__icons:not(:last-child) {
+    margin-right: 33px;
+  }
+}
+
+.promo {
+  background: #f1e4e6;
+  display: flex;
+  align-items: center;
+  padding-left: calc(50% - 800px);
+  padding-right: calc(50% - 800px);
+  &__img {
+    width: 50%;
+  }
+  &__photo {
+    width: 100%;
+  }
+  &__text {
+    margin-left: 64px;
+    border-left: 12px solid $pink;
+    padding-left: 16px;
+  }
+  &__h1 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: $black;
+  }
+  &__h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: $black;
+    &__selected {
+      color: $pink;
+    }
+  }
+}
+
+.offers {
+  margin-top: 65px;
+  margin-bottom: 96px;
+  &__up {
+    display: flex;
+    justify-content: space-between;
+    &__all {
+      height: 260px;
+      max-width: 360px;
+      flex-grow: 1;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    &__all:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 180px;
+    background-image: url(../img/offer__4.jpg);
+  }
+  &__text {
+    color: $white;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  &__heading {
+    color: $pink;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+.offer {
+  &__1 {
+    background-image: url(../img/offer__1.jpg);
+  }
+  &__2 {
+    background-image: url(../img/offer__2.jpg);
+  }
+  &__3 {
+    background-image: url(../img/offer__3.jpg);
+  }
+}
+
+.products {
+  &__header {
+    text-align: center;
+  }
+
+  &__heading {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  &__heading__text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9f9f9f;
+    margin-bottom: 48px;
+  }
+
+  &__catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__img {
+    position: relative;
+    &__wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      max-height: 420px;
+      z-index: 1;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__card {
+    max-width: 360px;
+    margin-bottom: 30px;
+    background: #f8f8f8;
+    &__texts {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    &__heading {
+      margin-top: 26px;
+      font-size: 13px;
+      line-height: 16px;
+    }
+    &__text {
+      margin-top: 13px;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      color: #5d5d5d;
+    }
+  }
+  &__price {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+    margin-bottom: 20px;
+  }
+  &__button {
+    padding: 15px 39px;
+    background: $white;
+    border: 1px solid $pink;
+    color: $pink;
+    &:hover {
+      background: $pink;
+      color: $white;
+    }
+    outline: none;
+    &__center {
+      text-align: center;
+      margin-top: 18px;
+      margin-bottom: 95px;
+    }
+  }
+}
+
+.wrap__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px;
+  background: none;
+  border: 1px solid $white;
+  text-align: center;
+  outline: none;
+}
+
+.wrap__text {
+  color: $white;
+  margin-left: 11px;
+}
+
+.features {
+  height: 341px;
+  background: $black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__descr:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__descr {
+    text-align: center;
+  }
+  &__heading {
+    margin-top: 28px;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #fbfbfb;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fbfbfb;
+    margin-top: 16px;
+  }
+}
+
+.feedback {
+  height: 448px;
+  background: linear-gradient(
+      to top,
+      rgba(244, 244, 244, 0.7),
+      rgba(244, 244, 244, 0.7)
+    ),
+    url(../img/bg_feedback.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  &__card {
+    max-width: 360px;
+  }
+  &__text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &__img {
+    margin-bottom: 30px;
+  }
+  &__form {
+    margin-right: 110px;
+    &__h3 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 167.2%;
+    }
+    &__h2 {
+      font-size: 18px;
+      line-height: 167.2%;
+      margin-bottom: 32px;
+      font-weight: 400;
+    }
+  }
+  &__user {
+    position: relative;
+  }
+
+  &__input {
+    border: none;
+    padding-top: 15px;
+    padding-left: 22px;
+    padding-bottom: 15px;
+    background: #e1e1e1;
+    border-radius: 18px;
+    min-width: 310px;
+  }
+  &__button {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0 18px 18px 0;
+    background: $pink;
+    color: $white;
+    padding-right: 15px;
+    position: absolute;
+    left: 249px;
+    padding-left: 15px;
+    // ХЗ, СТРАННО СМОТРИТСЯ ЕЙ БОГУ
+    // &:hover {
+    //   background: $white;
+    //   color: $pink;
+    // }
+  }
+}
+
+.footer {
+  height: 79px;
+  display: flex;
+  background: $black;
+  align-items: center;
+  justify-content: space-between;
+  &__text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fbfbfb;
+  }
+}
+
+.sicons {
+  &:hover &__bg {
+    fill: $pink;
+  }
+  &:hover &__icon {
+    fill: $white;
+  }
+}
